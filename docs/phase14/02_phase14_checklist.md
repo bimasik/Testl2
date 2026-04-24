@@ -16,6 +16,9 @@
 - [ ] HUD encounter обновляется по событиям
 - [ ] Нет compile errors
 
+- [ ] Есть reconciliation-проверка `AliveNPCs` против фактических акторов
+- [ ] Abort/Reset гарантирует очистку таймеров и подписок
+
 ## Definition of Done
 Phase 14 закрыта, если:
 - wave-оркестрация encounter работает предсказуемо end-to-end;

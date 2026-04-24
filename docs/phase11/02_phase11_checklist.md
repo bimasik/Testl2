@@ -15,6 +15,9 @@
 - [ ] `WBP_AbilityBar_Min` показывает cooldown и disabled state
 - [ ] Нет compile errors
 
+- [ ] Пайплайн способности соответствует `docs/system/combat_pipeline_contract.md`
+- [ ] Есть fail reason для reject-сценариев (не только bool)
+
 ## Definition of Done
 Phase 11 закрыта, если:
 - базовая ability-система работает end-to-end (input -> validation -> cost -> effect -> cooldown);

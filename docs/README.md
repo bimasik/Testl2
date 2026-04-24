@@ -74,5 +74,8 @@
 
 ## Кросс-фазовые стандарты
 - L2 interaction system: `docs/system/interaction_l2.md`
+- Combat pipeline contract: `docs/system/combat_pipeline_contract.md`
+- Contracts matrix: `docs/data/contracts_matrix.md`
 - Consistency QA checklist: `docs/qa/phase_docs_consistency_checklist.md`
+- Data validation checklist: `docs/qa/data_validation_checklist.md`
 - Deep analysis & optimization: `docs/qa/phase_deep_analysis_and_optimization.md`

@@ -20,12 +20,23 @@
 - [ ] Частые обновления идут через таймер/события, не через бессмысленный Tick
 - [ ] SRP: один компонент = одна зона ответственности
 
-## 4) Кросс-фазовые стандарты
+## 4) Data/contracts
+- [ ] Контракты отражены в `docs/data/contracts_matrix.md`
+- [ ] Для критичных структур учитывается `SchemaVersion`
+- [ ] Data-изменения проверены по `docs/qa/data_validation_checklist.md`
+
+## 5) Транзакции и устойчивость
+- [ ] Для многошаговых операций описан rollback/fail reason
+- [ ] Проверена idempotency (повторный вызов не ломает состояние)
+- [ ] Edge-case поведение описано (missing data, invalid target, race)
+
+## 6) Кросс-фазовые стандарты
 - [ ] Для interaction соблюдается `docs/system/interaction_l2.md`
+- [ ] Для боя соблюдается `docs/system/combat_pipeline_contract.md`
 - [ ] Следующая фаза указана в текущем `README.md`
 - [ ] `docs/README.md` обновлен и содержит новую фазу
 
-## 5) Проверяемость
+## 7) Проверяемость
 - [ ] В `02_*_checklist.md` есть smoke test
 - [ ] Есть Definition of Done
 - [ ] Критерии DoD измеримы и проверяемы

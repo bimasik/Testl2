@@ -16,6 +16,9 @@
 - [ ] `WBP_StatusBar_Min` показывает актуальные статусы
 - [ ] Нет compile errors
 
+- [ ] Порядок боевых событий совпадает с `combat_pipeline_contract.md`
+- [ ] Очистка эффектов гарантирует rollback модификаторов
+
 ## Definition of Done
 Phase 12 закрыта, если:
 - status effects работают консистентно для игрока и NPC;
