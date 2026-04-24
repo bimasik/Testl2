@@ -98,3 +98,4 @@
 
 ## Backend
 - Когда начинать сервер: `docs/system/backend_development_timeline.md`
+- Серверные скрипты (prototype): `backend/`
