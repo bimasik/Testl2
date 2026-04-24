@@ -82,7 +82,12 @@
 - Implementation next steps: `docs/qa/implementation_next_steps.md`
 - UI/UX implementation plan: `docs/qa/ui_ux_components_implementation_plan.md`
 - UI creation detailed guide: `docs/ui/01_ui_creation_detailed_instructions.md`
+- Worldbuilding + free assets guide: `docs/world/01_worldbuilding_and_free_assets.md`
 
 
 ## UI / UX
 - Подробный гайд: `docs/ui/01_ui_creation_detailed_instructions.md`
+
+
+## Worldbuilding
+- Пошаговый гайд: `docs/world/01_worldbuilding_and_free_assets.md`
