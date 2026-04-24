@@ -87,6 +87,11 @@
 
 ---
 
+
+## UI/UX note
+Не реализуем весь UI/UX слой сразу.
+Сначала P0-виджеты gameplay-loop, затем P1/P2 расширения (см. `docs/qa/ui_ux_components_implementation_plan.md`).
+
 ## Рекомендуемый порядок PR
 1. PR-A: contracts + fail-reason enums + validation hooks
 2. PR-B: vertical slice gameplay implementation

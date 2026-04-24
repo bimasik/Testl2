@@ -80,3 +80,4 @@
 - Data validation checklist: `docs/qa/data_validation_checklist.md`
 - Deep analysis & optimization: `docs/qa/phase_deep_analysis_and_optimization.md`
 - Implementation next steps: `docs/qa/implementation_next_steps.md`
+- UI/UX implementation plan: `docs/qa/ui_ux_components_implementation_plan.md`
