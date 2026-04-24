@@ -12,6 +12,7 @@
 - **Phase 6**: `docs/phase6/README.md` ✅
 - **Phase 7**: `docs/phase7/README.md` ✅
 - **Phase 8**: `docs/phase8/README.md` ✅
+- **Phase 9**: `docs/phase9/README.md` ✅
 
 ## Что добавлено для Phase 3
 - `docs/phase3/01_phase3_step_by_step.md` — полный node-by-node гайд
@@ -36,6 +37,10 @@
 ## Что добавлено для Phase 8
 - `docs/phase8/01_phase8_step_by_step.md` — инвентарь и pickup node-by-node
 - `docs/phase8/02_phase8_checklist.md` — чеклист и DoD
+
+## Что добавлено для Phase 9
+- `docs/phase9/01_phase9_step_by_step.md` — экипировка и синхронизация с инвентарем node-by-node
+- `docs/phase9/02_phase9_checklist.md` — чеклист и DoD
 
 ## Порядок работы
 1. Открой README нужной фазы.
