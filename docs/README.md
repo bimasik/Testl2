@@ -83,6 +83,7 @@
 - UI/UX implementation plan: `docs/qa/ui_ux_components_implementation_plan.md`
 - UI creation detailed guide: `docs/ui/01_ui_creation_detailed_instructions.md`
 - Worldbuilding + free assets guide: `docs/world/01_worldbuilding_and_free_assets.md`
+- Mob population plan: `docs/world/02_world_mob_population_plan.md`
 
 
 ## UI / UX
@@ -91,3 +92,4 @@
 
 ## Worldbuilding
 - Пошаговый гайд: `docs/world/01_worldbuilding_and_free_assets.md`
+- План заполнения мобами: `docs/world/02_world_mob_population_plan.md`
