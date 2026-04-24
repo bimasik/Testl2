@@ -1,0 +1,43 @@
+RowName,Tag,DevComment
+Race_Human,Race.Human,Human race
+Race_Elf,Race.Elf,Elf race
+Race_DarkElf,Race.DarkElf,Dark elf race
+Race_Orc,Race.Orc,Orc race
+Race_Dwarf,Race.Dwarf,Dwarf race
+ClassLine_Fighter,ClassLine.Fighter,Physical class line
+ClassLine_Mystic,ClassLine.Mystic,Magic class line
+Profession_Fighter_T1_Warrior,Profession.Fighter.T1.Warrior,Fighter tier 1 warrior branch
+Profession_Fighter_T1_Knight,Profession.Fighter.T1.Knight,Fighter tier 1 knight branch
+Profession_Fighter_T2_Gladiator,Profession.Fighter.T2.Gladiator,Fighter tier 2 gladiator branch
+Profession_Fighter_T2_Paladin,Profession.Fighter.T2.Paladin,Fighter tier 2 paladin branch
+Profession_Mystic_T1_Wizard,Profession.Mystic.T1.Wizard,Mystic tier 1 wizard branch
+Profession_Mystic_T1_Cleric,Profession.Mystic.T1.Cleric,Mystic tier 1 cleric branch
+Profession_Mystic_T2_Sorcerer,Profession.Mystic.T2.Sorcerer,Mystic tier 2 sorcerer branch
+Profession_Mystic_T2_Bishop,Profession.Mystic.T2.Bishop,Mystic tier 2 bishop branch
+Role_MeleeDPS,Role.Melee.DPS,Melee dps role
+Role_RangedDPS,Role.Ranged.DPS,Ranged dps role
+Role_Tank,Role.Tank,Tank role
+Role_Healer,Role.Healer,Healer role
+Weapon_Sword1H,Weapon.Sword.1H,One-handed sword
+Weapon_Sword2H,Weapon.Sword.2H,Two-handed sword
+Weapon_Dagger,Weapon.Dagger,Dagger weapon
+Weapon_Bow,Weapon.Bow,Bow weapon
+Weapon_Staff,Weapon.Staff,Staff weapon
+Weapon_Shield,Weapon.Shield,Shield offhand
+Armor_Light,Armor.Light,Light armor
+Armor_Heavy,Armor.Heavy,Heavy armor
+Armor_Robe,Armor.Robe,Robe armor
+Skill_Active_PowerStrike,Skill.Active.PowerStrike,Single target strike
+Skill_Active_Whirlwind,Skill.Active.Whirlwind,Small aoe melee
+Skill_Active_ShieldBash,Skill.Active.ShieldBash,Shield hit with stun chance
+Skill_Active_BattleCry,Skill.Active.BattleCry,Attack buff
+Skill_Passive_WeaponMastery,Skill.Passive.WeaponMastery,Weapon mastery passive
+Status_Stun,Status.CC.Stun,Stun effect
+Status_Root,Status.CC.Root,Root effect
+Status_Bleed,Status.DOT.Bleed,Bleed effect
+Status_DefenseUp,Status.Buff.Defense.Up,Defense buff
+Damage_Physical,Damage.Physical,Physical damage type
+Damage_Magical,Damage.Magical,Magical damage type
+Feature_Party,Feature.Party,Party feature flag
+Feature_PvP,Feature.PvP,PvP feature flag
+Feature_Clan,Feature.Clan,Clan feature flag
