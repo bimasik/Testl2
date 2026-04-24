@@ -79,3 +79,4 @@
 - Consistency QA checklist: `docs/qa/phase_docs_consistency_checklist.md`
 - Data validation checklist: `docs/qa/data_validation_checklist.md`
 - Deep analysis & optimization: `docs/qa/phase_deep_analysis_and_optimization.md`
+- Implementation next steps: `docs/qa/implementation_next_steps.md`
