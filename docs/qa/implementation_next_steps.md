@@ -20,6 +20,7 @@
   - `docs/qa/data_validation_checklist.md`
 - Добавить lightweight code-owner правило на изменения этих файлов.
 - Ввести `E_OpFailReason` в базовые Blueprint API (ability/inventory/equipment).
+- Запустить backend discovery/design track (см. `docs/system/backend_development_timeline.md`).
 
 ## DoD
 - Все новые PR с геймплейной логикой ссылаются на contract docs.

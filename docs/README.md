@@ -75,6 +75,7 @@
 ## Кросс-фазовые стандарты
 - L2 interaction system: `docs/system/interaction_l2.md`
 - Combat pipeline contract: `docs/system/combat_pipeline_contract.md`
+- Backend development timeline: `docs/system/backend_development_timeline.md`
 - Contracts matrix: `docs/data/contracts_matrix.md`
 - Consistency QA checklist: `docs/qa/phase_docs_consistency_checklist.md`
 - Data validation checklist: `docs/qa/data_validation_checklist.md`
@@ -93,3 +94,7 @@
 ## Worldbuilding
 - Пошаговый гайд: `docs/world/01_worldbuilding_and_free_assets.md`
 - План заполнения мобами: `docs/world/02_world_mob_population_plan.md`
+
+
+## Backend
+- Когда начинать сервер: `docs/system/backend_development_timeline.md`
