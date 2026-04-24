@@ -15,6 +15,7 @@
 - **Phase 9**: `docs/phase9/README.md` ✅
 - **Phase 10**: `docs/phase10/README.md` ✅
 - **Phase 11**: `docs/phase11/README.md` ✅
+- **Phase 12**: `docs/phase12/README.md` ✅
 
 ## Что добавлено для Phase 3
 - `docs/phase3/01_phase3_step_by_step.md` — полный node-by-node гайд
@@ -51,6 +52,10 @@
 ## Что добавлено для Phase 11
 - `docs/phase11/01_phase11_step_by_step.md` — активные способности и combat modifiers node-by-node
 - `docs/phase11/02_phase11_checklist.md` — чеклист и DoD
+
+## Что добавлено для Phase 12
+- `docs/phase12/01_phase12_step_by_step.md` — status effects и combat event pipeline node-by-node
+- `docs/phase12/02_phase12_checklist.md` — чеклист и DoD
 
 ## Порядок работы
 1. Открой README нужной фазы.
