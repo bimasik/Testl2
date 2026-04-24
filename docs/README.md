@@ -14,6 +14,7 @@
 - **Phase 8**: `docs/phase8/README.md` ✅
 - **Phase 9**: `docs/phase9/README.md` ✅
 - **Phase 10**: `docs/phase10/README.md` ✅
+- **Phase 11**: `docs/phase11/README.md` ✅
 
 ## Что добавлено для Phase 3
 - `docs/phase3/01_phase3_step_by_step.md` — полный node-by-node гайд
@@ -46,6 +47,10 @@
 ## Что добавлено для Phase 10
 - `docs/phase10/01_phase10_step_by_step.md` — статы от экипировки и визуальная привязка node-by-node
 - `docs/phase10/02_phase10_checklist.md` — чеклист и DoD
+
+## Что добавлено для Phase 11
+- `docs/phase11/01_phase11_step_by_step.md` — активные способности и combat modifiers node-by-node
+- `docs/phase11/02_phase11_checklist.md` — чеклист и DoD
 
 ## Порядок работы
 1. Открой README нужной фазы.
