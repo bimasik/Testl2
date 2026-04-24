@@ -4,6 +4,8 @@
 
 Нужно идти поэтапно: сначала core UX для gameplay-loop, затем расширения.
 
+Детальная пошаговая реализация: `docs/ui/01_ui_creation_detailed_instructions.md`.
+
 ---
 
 ## 1) Что делать в первую очередь (MVP UI)

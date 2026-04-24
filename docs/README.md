@@ -81,3 +81,8 @@
 - Deep analysis & optimization: `docs/qa/phase_deep_analysis_and_optimization.md`
 - Implementation next steps: `docs/qa/implementation_next_steps.md`
 - UI/UX implementation plan: `docs/qa/ui_ux_components_implementation_plan.md`
+- UI creation detailed guide: `docs/ui/01_ui_creation_detailed_instructions.md`
+
+
+## UI / UX
+- Подробный гайд: `docs/ui/01_ui_creation_detailed_instructions.md`
