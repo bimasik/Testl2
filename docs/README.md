@@ -41,3 +41,6 @@
 1. Открой README нужной фазы.
 2. Выполни `01_*_step_by_step.md`.
 3. Закрой фазу по `02_*_checklist.md`.
+
+## Кросс-фазовые стандарты
+- L2 interaction system: `docs/system/interaction_l2.md`

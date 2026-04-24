@@ -9,7 +9,6 @@
 Создай:
 - `Content/_Core/Blueprints/Components/BPC_Inventory`
 - `Content/_Core/Data/Structs/S_InventoryItem`
-- `Content/_Core/Input/IA_InteractPickup`
 - `Content/_Core/UI/WBP_Inventory_Min`
 
 Обнови:
@@ -30,13 +29,13 @@
 
 ---
 
-## Итерация 3 — `IA_InteractPickup`
+## Итерация 3 — вход по L2 interaction
 
-- Value Type: `Digital`
-- Trigger: `Pressed`
-- Mapping: `E`
-
-Добавь в `IMC_PlayerBase`.
+Новый input action не добавляем.  
+Используем существующий `IA_TargetClick (LMB)` и приоритет из `docs/system/interaction_l2.md`:
+1) loot click -> pickup  
+2) target click -> select/action  
+3) ground click -> move
 
 ---
 
@@ -141,14 +140,16 @@ Node-by-node:
 ### Добавь компонент
 - Add Component -> `BPC_Inventory`
 
-### Input event `IA_InteractPickup`
+### Input event `IA_TargetClick`
 Node-by-node:
-1. Event `IA_InteractPickup (Started)`
-2. `SphereOverlapActors` вокруг игрока (например radius `200`)
-3. `ForEachLoop` по найденным акторам
-4. `Cast To BP_LootDropActor`
-5. `Call TryPickup(self)`
-6. Если успех -> break loop
+1. Event `IA_TargetClick (Started)`
+2. `Get Hit Result Under Cursor by Channel` (Visibility)
+3. `Break Hit Result`
+4. `Cast To BP_LootDropActor` (Hit Actor)
+5. `Branch` (Cast Success)
+6. True -> `Call TryPickup(self)`
+7. Если `TryPickup` == true -> **прервать дальнейшую обработку клика** (не запускать move/target в этом событии)
+8. Если false -> передать в обычную ветку таргета/движения
 
 ---
 
@@ -169,7 +170,7 @@ Node-by-node:
 ## Итерация 12 — финальный smoke test
 
 1. Убиваем NPC -> выпадает дроп (из Phase 7).
-2. Подходим и жмем `E` -> дроп исчезает.
+2. Кликаем ЛКМ по дропу -> дроп исчезает.
 3. Предмет появляется в `BPC_Inventory.Items`.
 4. При повторном подборе одинаковый item стакается.
 5. Если слоты заполнены, `AddItem` возвращает false и дроп не исчезает.
