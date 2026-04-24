@@ -12,3 +12,6 @@
 - Без торговли/крафта/аукциона.
 - Соблюдаем `docs/phase0/06_blueprint_rules.md`.
 - Соблюдаем `docs/system/interaction_l2.md`.
+
+## Следующая фаза
+- Phase 9 (экипировка): запланировать как отдельный модуль `BPC_Equipment`.

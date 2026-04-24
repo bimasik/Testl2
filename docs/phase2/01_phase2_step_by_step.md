@@ -62,8 +62,8 @@
 6. `Call ApplyMoveMode`
 
 ## BeginPlay компонента
-1. Event `BeginPlay`
-2. Вызвать `InitializeReferences`
+На этом этапе только фиксируем, что `InitializeReferences` должен быть вызван из `BeginPlay`.
+Полный BeginPlay-граф с таймером соберем в Итерации 6.
 
 ## Проверка итерации
 - В Watch видно валидные `OwnerCharacter` и `OwnerMovement`.
@@ -117,12 +117,16 @@
 5. `>` (`CurrentSpeed`, `MoveThreshold`)
 6. `Set bIsMoving`
 
-## Вызов
-- Пока в этой фазе можно вызывать из `Tick` компонента (допустимо для прототипа).
+## Вызов (оптимизировано без Tick)
+- Используем таймер вместо `Tick`, чтобы соответствовать правилам производительности.
 
-### Event Tick компонента
-1. Event `TickComponent`
-2. `Call UpdateLocomotionState`
+### BeginPlay компонента
+1. Event `BeginPlay`
+2. `InitializeReferences`
+3. `Set Timer by Function Name`
+   - Function Name = `UpdateLocomotionState`
+   - Time = `0.1`
+   - Looping = `true`
 
 ---
 

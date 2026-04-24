@@ -44,3 +44,4 @@
 
 ## Кросс-фазовые стандарты
 - L2 interaction system: `docs/system/interaction_l2.md`
+- Consistency QA checklist: `docs/qa/phase_docs_consistency_checklist.md`
