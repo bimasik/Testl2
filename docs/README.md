@@ -99,3 +99,4 @@
 ## Backend
 - Когда начинать сервер: `docs/system/backend_development_timeline.md`
 - Серверные скрипты (prototype): `backend/`
+- Серверные скрипты (Node.js prototype): `backend_js/`
