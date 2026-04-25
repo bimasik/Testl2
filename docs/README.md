@@ -16,6 +16,8 @@
 - **Phase 10**: `docs/phase10/README.md` ✅
 - **Phase 11**: `docs/phase11/README.md` ✅
 - **Phase 12**: `docs/phase12/README.md` ✅
+- **Phase 13**: `docs/phase13/README.md` ✅
+- **Phase 14**: `docs/phase14/README.md` ✅
 
 ## Что добавлено для Phase 3
 - `docs/phase3/01_phase3_step_by_step.md` — полный node-by-node гайд
@@ -57,6 +59,14 @@
 - `docs/phase12/01_phase12_step_by_step.md` — status effects и combat event pipeline node-by-node
 - `docs/phase12/02_phase12_checklist.md` — чеклист и DoD
 
+## Что добавлено для Phase 13
+- `docs/phase13/01_phase13_step_by_step.md` — AI behavior layers (threat + utility) node-by-node
+- `docs/phase13/02_phase13_checklist.md` — чеклист и DoD
+
+## Что добавлено для Phase 14
+- `docs/phase14/01_phase14_step_by_step.md` — encounter orchestration (waves + roles) node-by-node
+- `docs/phase14/02_phase14_checklist.md` — чеклист и DoD
+
 ## Порядок работы
 1. Открой README нужной фазы.
 2. Выполни `01_*_step_by_step.md`.
@@ -64,4 +74,28 @@
 
 ## Кросс-фазовые стандарты
 - L2 interaction system: `docs/system/interaction_l2.md`
+- Combat pipeline contract: `docs/system/combat_pipeline_contract.md`
+- Backend development timeline: `docs/system/backend_development_timeline.md`
+- Contracts matrix: `docs/data/contracts_matrix.md`
 - Consistency QA checklist: `docs/qa/phase_docs_consistency_checklist.md`
+- Data validation checklist: `docs/qa/data_validation_checklist.md`
+- Deep analysis & optimization: `docs/qa/phase_deep_analysis_and_optimization.md`
+- Implementation next steps: `docs/qa/implementation_next_steps.md`
+- UI/UX implementation plan: `docs/qa/ui_ux_components_implementation_plan.md`
+- UI creation detailed guide: `docs/ui/01_ui_creation_detailed_instructions.md`
+- Worldbuilding + free assets guide: `docs/world/01_worldbuilding_and_free_assets.md`
+- Mob population plan: `docs/world/02_world_mob_population_plan.md`
+
+
+## UI / UX
+- Подробный гайд: `docs/ui/01_ui_creation_detailed_instructions.md`
+
+
+## Worldbuilding
+- Пошаговый гайд: `docs/world/01_worldbuilding_and_free_assets.md`
+- План заполнения мобами: `docs/world/02_world_mob_population_plan.md`
+
+
+## Backend
+- Когда начинать сервер: `docs/system/backend_development_timeline.md`
+- Серверные скрипты (prototype): `backend/`

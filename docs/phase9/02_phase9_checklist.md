@@ -15,6 +15,9 @@
 - [ ] `WBP_Equipment_Min` обновляется через `OnEquipmentChanged`
 - [ ] Нет compile errors
 
+- [ ] Операции equip/unequip описаны как транзакции с rollback
+- [ ] При сбое после частичного шага состояние инвентаря/слота консистентно
+
 ## Definition of Done
 Phase 9 закрыта, если:
 - экипировка/снятие работает как транзакция между `BPC_Inventory` и `BPC_Equipment`;

@@ -14,6 +14,9 @@
 - [ ] `WBP_Inventory_Min` обновляется через `OnInventoryChanged`
 - [ ] Нет compile errors
 
+- [ ] Повторный клик/pickup не вызывает double-add (idempotency)
+- [ ] Для ошибок добавления есть понятный fail reason/лог
+
 ## Definition of Done
 Phase 8 закрыта, если:
 - world-drop конвертируется в предметы инвентаря;
